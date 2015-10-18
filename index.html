@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Totes Notes</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</head>
+<body ng-app="noteApp" ng-controller="MainController">
+    <div class="header">
+        <div class="container">
+            <h1>Totes Notes</h1>
+            <h1 class="edit-button" ng-click="edit()" ng-bind="editMessage"></h1>
+            <img class="add" src="images/add.svg" ng-click="add()">
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="container">
+            <post-it id="postIt" ng-repeat="postIt in postIts"></post-it>
+        </div>
+    </div>
+</body>
+</html>
