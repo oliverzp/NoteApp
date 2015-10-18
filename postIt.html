@@ -1,7 +1,5 @@
 <div class="post-it" ng-style="{'background': color}">
 	<div class="note" contenteditable="true" ng-bind="text"></div>
-    <div class="img-container" ng-show="$parent.editMode">
-        <img src="images/color_wheel.png" ng-click="getNextColor()">
-        <img src="images/delete.png" ng-click="delete()">
-    </div>
+    <img class="add" src="images/color_wheel.png" ng-click="getNextColor()" ng-show="$parent.editMode">
+    <img class="delete" src="images/delete.png" ng-click="delete()" ng-show="$parent.editMode">
 </div>
