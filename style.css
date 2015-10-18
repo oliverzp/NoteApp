@@ -21,7 +21,7 @@ html, body {
 	display: inline;
 }
 
-.header .container .edit-button {
+.header .container .editting {
 	font-family: Helvetica Neue;
 	font-size: 40px;
 	padding: 20px 20px;
@@ -70,8 +70,3 @@ html, body {
     top: 10px;
     left: 300px;
 }
-
-.add {
-	cursor: pointer;
-}
-
