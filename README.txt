@@ -9,3 +9,5 @@ Content is saved into localStorage until your next session for continuous usage.
 This app was built using AngularJS. Each post-it is a directive. See comments in source.
 
 Tested on Chrome, Firefox, and Safari, Desktop and Mobile.
+
+To view, open index.html in a local host environoment or visit http://oliverzp.github.io/NoteApp
